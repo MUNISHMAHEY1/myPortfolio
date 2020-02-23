@@ -38,7 +38,7 @@ class CardReact2 extends Component {
                             </a>
                         </Button>
                         <Button size="small" color="primary">
-                            <a className="card-btn" href="/" target="_blank" rel="noopener noreferrer">
+                            <a className="card-btn" href="https://cocky-jepsen-05e8a5.netlify.com/" target="_blank" rel="noopener noreferrer">
                             Live Demo
                             </a>
                         </Button>
