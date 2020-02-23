@@ -1,38 +1,186 @@
+
 .App {
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --textChangeColor:#ffa500;
+  --logoChangeColor:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-links {
+  text-decoration: none;
+  color: white;
+ }
+ /* @media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
   }
+} */
+
+.nav-links:hover{
+  color: var(--textChangeColor);
+} 
+
+.homelogo{
+  color:white;
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homelogo:hover{
+  color: var(--logoChangeColor);
+  opacity: 0.75;
+}
+.header-color{
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+.home-grid{
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.avatar-img{
+  display:block;
+  height:250px;
+  /* padding-top: 2rem; */
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto ;
+  border-radius: 50%;
+  
+}
+
+.banner-text{
+  background-color: black;
+  opacity: 0.7;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+ 
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr{
+  border-top: 5px dotted white;
+  border-bottom: none;
+  width:50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text p{
+  color:white;
+  font-size: 20px;
+  padding:1rem;
 }
+.social-links{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  
+}
+.social-icon{
+  display:inline-block;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+/*Project page css*/
+
+.category-tabs{
+  background-color: white;
+  color: black;
+  margin-left:27rem;
+}
+.card-root{
+  max-width: 20rem;
+  max-height: 28rem;
+}
+.card-media{
+  height: 11rem;
+}
+.card-btn{
+  text-decoration:none;
+}
+.cards{
+  display:inline-table;
+  margin: 10rem;
+  margin-top: 2rem;
+}
+/* End Project page css*/
+
+/* Contact page css*/
+
+.contact-body{
+  margin:auto;
+  font-family: 'Raleway';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+ 
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+.contact-grid h2{
+  font-size:"2.5rem";
+}
+.contact-img{
+  width:220px;
+  height: 280px;
+}
+.contact-hr-style{
+  border-top: 5px dotted black;
+  border-bottom: none;
+  width:50%;
+  margin: auto;
+}
+.contact-list{
+  text-align: center;
+  justify-content: center;
+  margin-left: 10rem;
+}
+
+/* End Contact page css*/
+
+/*About Page css*/
+.about-body{
+  overflow-x: hidden;
+  margin:auto;
+  font-family: 'Raleway';
+  height: 100%;
+  justify-content: center;
+  padding-top: 2rem;
+ 
+}
+
+.about-img{
+  width: 24rem;
+  height: 32rem;
+  margin-bottom: 5rem;
+}
+/*End About Page css*/
