@@ -33,7 +33,7 @@ class CardReact2 extends Component {
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary" >
-                            <a className="card-btn" href="/" target="_blank" rel="noopener noreferrer">
+                            <a className="card-btn" href="https://github.com/MUNISHMAHEY1/myPortfolio" target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>
                         </Button>
