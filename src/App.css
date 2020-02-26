@@ -53,7 +53,7 @@
 }
 .avatar-img{
   display:block;
-  height:250px;
+  height:20rem;
   /* padding-top: 2rem; */
   width: 220px;
   margin-left: auto;
@@ -95,6 +95,7 @@
   
 }
 .social-icon{
+  color: white;
   display:inline-block;
   font-size: 3rem;
   margin-bottom: 0.5rem;
