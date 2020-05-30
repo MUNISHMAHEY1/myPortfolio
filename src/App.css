@@ -163,16 +163,10 @@
 .contact-list{
   text-align: center;
   justify-content: center;
-  margin-left: 25rem;
+  /* margin-left: 25rem; */
 }
 
-@media (max-width: 450px){
-  .contact-list{
-    text-align: center;
-    /* justify-content: center; */
-    /* margin-left: 25rem; */
-  }
-}
+
 /* End Contact page css*/
 
 /*About Page css*/

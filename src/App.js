@@ -6,6 +6,7 @@ import Home from './components/Home'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import AboutMe from './components/AboutMe'
+import Error from './components/Error';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/aboutme" component={AboutMe}></Route>
         <Route exact path="/projects" component={Projects}></Route>
         <Route exact path="/contact" component={Contact}></Route>
+        <Route component={Error}></Route>
       </Switch>
     </>
   );
