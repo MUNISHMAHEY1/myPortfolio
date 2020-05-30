@@ -40,7 +40,7 @@ class AboutMe extends Component {
                         <h1 style={{textAlign: "center"}}>Experience</h1>
                         <hr className="contact-hr-style" />
                         <h2 style={{textAlign: "center"}}>Software Developer (University of Windsor)</h2>
-                        <h3 style={{textAlign: "center"}}>January 2020 - Present</h3>
+                        <h3 style={{textAlign: "center"}}>January 2020 - April 2020</h3>
                          <ul style={{ fontWeight:"bold", width:"75%", margin:"auto", paddingTop:"0.5rem", textAlign: "left"}}>
                             <li>Currently working as a Software Developer with university of Windsor to create a website using JavaScript and Reactjs.
                                 </li> 
