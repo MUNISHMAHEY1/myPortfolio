@@ -41,7 +41,7 @@ class SocialLinks extends Component {
             <div className="social-links">
                 {this.state.socialServices.map((item,id)=>{
                    return(
-                       <article key="id">
+                       <article key={id}>
                            <span className="social-icon">{item.icon}</span>
                        </article>
                    ) 

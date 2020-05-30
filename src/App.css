@@ -13,11 +13,11 @@
   text-decoration: none;
   color: white;
  }
- /* @media screen and (max-width: 768px) {
+ @media (max-width: 450px) {
   .nav-links {
     display: none;
   }
-} */
+}
 
 .nav-links:hover{
   color: var(--textChangeColor);
@@ -163,9 +163,16 @@
 .contact-list{
   text-align: center;
   justify-content: center;
-  margin-left: 10rem;
+  margin-left: 25rem;
 }
 
+@media (max-width: 450px){
+  .contact-list{
+    text-align: center;
+    /* justify-content: center; */
+    /* margin-left: 25rem; */
+  }
+}
 /* End Contact page css*/
 
 /*About Page css*/

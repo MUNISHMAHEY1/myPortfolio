@@ -10,7 +10,7 @@ export class ContactList extends Component {
     render() {
         return (
             <div className="contact-list">
-                <List>
+                <List >
                     <ListItem >
                         <ListItemIcon>
                             <FaPhoneSquare style={{fontSize:"3rem", color:"black"}}></FaPhoneSquare>

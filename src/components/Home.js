@@ -13,7 +13,7 @@ export class Home extends Component {
                         <div className='banner-text'>
                             <h1>Software Developer</h1>
                             <hr/>
-                            <p>JavaScript | Reactjs | HTML | CSS | Bootstrap | Python | Django | MySQL | SQL</p>
+                            <p>JavaScript | Reactjs | Node.js | Express.js| MongoDB | GraphQL | Apollo | HTML5 | CSS3 | Bootstrap | Python | Django | MySQL | SQL</p>
                             <SocialLinks />
                         </div>
                     </Grid>

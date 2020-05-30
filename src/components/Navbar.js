@@ -27,7 +27,7 @@ function Navbar() {
                 <Toolbar>
                 <Link to="/"><MdHome className="homelogo"/></Link>
                     <Typography variant="h4" className={classes.title}>
-                        Munish Munish
+                        Munish
                     </Typography>
                     <Link to="/aboutme" className="nav-links">
                         <Button color="inherit">About Me</Button>
