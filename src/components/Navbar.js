@@ -22,7 +22,7 @@ function Navbar() {
 
     const classes = useStyle();
     return (
-        <div className={classes.root}>
+        <div className="">
             <AppBar position="static" className="header-color">
                 <Toolbar>
                 <Link to="/"><MdHome className="homelogo"/></Link>
@@ -35,15 +35,9 @@ function Navbar() {
                     <Link to="/projects" className="nav-links" >
                         <Button color="inherit">Projects</Button>
                     </Link>
-                    {/* <Link to="/resume" className="nav-links" >
-                        <Button color="inherit">Resume</Button>
-                    </Link> */}
                     <Link to="/contact" className="nav-links" >
                         <Button color="inherit">Contact</Button>
                     </Link>
-                    {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton> */}
                 </Toolbar>
             </AppBar>
         </div>

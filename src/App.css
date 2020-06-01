@@ -13,11 +13,7 @@
   text-decoration: none;
   color: white;
  }
- @media (max-width: 450px) {
-  .nav-links {
-    display: none;
-  }
-}
+ 
 
 .nav-links:hover{
   color: var(--textChangeColor);
@@ -120,7 +116,9 @@
 }
 .cards{
   display:inline-table;
-  margin: 10rem;
+  margin-left: 10rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
   margin-top: 2rem;
 }
 /* End Project page css*/
@@ -186,3 +184,12 @@
   margin-bottom: 5rem;
 }
 /*End About Page css*/
+
+@media all and (max-width: 900px) {
+  .category-tabs{
+    margin-left: 5rem;
+  }
+  .cards{
+    margin-left: 1rem;
+  }
+}
