@@ -158,6 +158,10 @@
   width:50%;
   margin: auto;
 }
+.MuiList-root{
+  /* text-align: center !important; */
+  margin-left: 25rem !important;  
+}
 .contact-list{
   text-align: center;
   justify-content: center;
@@ -191,5 +195,8 @@
   }
   .cards{
     margin-left: 1rem;
+  }
+  .MuiList-root{
+    margin-left: 2rem !important;
   }
 }
