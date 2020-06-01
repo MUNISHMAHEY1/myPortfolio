@@ -7,7 +7,7 @@
 :root{
   --textChangeColor:#ffa500;
   --logoChangeColor:black;
-  --mainTransition: all 0.4s linear;
+  --mainTransition: all 0.5s linear;
   --mainSpacing: 3px;
 }
 
@@ -29,6 +29,7 @@
   font-size: 1rem;
   font-weight: 600;
   letter-spacing: var(--mainSpacing);
+  
 }
  .nav-btn {
   background: transparent;
@@ -44,10 +45,10 @@
   color: var(--textChangeColor);
 }
 .show-nav {
-  height: 150px;
+  height: 7rem;
 }
 
-.nav-links:hover{
+.nav-link:hover{
   color: var(--textChangeColor);
 } 
 
@@ -107,8 +108,8 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
- 
 }
+
 
 .banner-text h1{
   font-size: 66px;
@@ -128,6 +129,12 @@
   font-size: 20px;
   padding:1rem;
 }
+
+@media screen and (max-width: 450px){
+  .banner-text h1{
+    font-size: 40px;  
+  }
+}
 .social-links{
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -139,7 +146,9 @@
   font-size: 3rem;
   margin-bottom: 0.5rem;
 }
-
+.social-icon:hover{
+  color: red !important;
+}
 /*Project page css*/
 
 .category-tabs{
