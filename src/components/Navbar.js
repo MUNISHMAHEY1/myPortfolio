@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core'
 import { AppBar, Toolbar, Typography, Button } from '@material-ui/core'
 // import { HomeIcon, MenuIcon } from '@material-ui/icons'
+import { FaAlignRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import {MdHome} from 'react-icons/md'
 
@@ -18,8 +19,14 @@ const useStyle = makeStyles(theme => ({
     },
 }));
 
-function Navbar() {
 
+
+function Navbar() {
+    const [ isOpen, setIsOpen ] = useState(false);
+
+    const handleToggle = () => {
+        setIsOpen(!isOpen)
+    }
     const classes = useStyle();
     return (
         <div className="">
@@ -29,15 +36,22 @@ function Navbar() {
                     <Typography variant="h4" className={classes.title}>
                         Munish
                     </Typography>
-                    <Link to="/aboutme" className="nav-links">
-                        <Button color="inherit">About Me</Button>
-                    </Link>
-                    <Link to="/projects" className="nav-links" >
-                        <Button color="inherit">Projects</Button>
-                    </Link>
-                    <Link to="/contact" className="nav-links" >
-                        <Button color="inherit">Contact</Button>
-                    </Link>
+
+                    
+                    <div className={isOpen ? "nav-links show-nav": "nav-links"}>
+                        <Link to="/aboutme" className="nav-link">
+                            <Button color="inherit">About Me</Button>
+                        </Link>
+                        <Link to="/projects" className="nav-link" >
+                            <Button color="inherit">Projects</Button>
+                        </Link>
+                        <Link to="/contact" className="nav-link" >
+                            <Button color="inherit">Contact</Button>
+                        </Link>
+                    </div>
+                    <button type="button" className="nav-btn" onClick={handleToggle}>
+                        <FaAlignRight className="nav-icon"></FaAlignRight>
+                    </button>
                 </Toolbar>
             </AppBar>
         </div>
