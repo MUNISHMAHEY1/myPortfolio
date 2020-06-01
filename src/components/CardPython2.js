@@ -32,7 +32,7 @@ class CardReact1 extends Component {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" >
+                        <Button variant="contained" color="primary" >
                             <a className="card-btn" href="https://github.com/MUNISHMAHEY1/TaekOnline" target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>

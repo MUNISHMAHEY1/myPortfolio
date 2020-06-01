@@ -20,6 +20,7 @@ class CardReact1 extends Component {
                             image={Image}
                             title="Contemplative Reptile"
                         />
+                        
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
                                 Resort Recording System
@@ -32,12 +33,12 @@ class CardReact1 extends Component {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" >
+                        <Button variant="contained" color="primary" >
                             <a className="card-btn" href="https://github.com/MUNISHMAHEY1/react-beach-resort-project" target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>
                         </Button>
-                        <Button size="small" color="primary">
+                        <Button variant="contained" color="secondary">
                             <a className="card-btn" href="https://react-resort-recording-system.netlify.com/" target="_blank" rel="noopener noreferrer">
                             Live Demo
                             </a>

@@ -32,12 +32,12 @@ class CardReact2 extends Component {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary" >
+                        <Button variant="contained" color="primary" >
                             <a className="card-btn" href="https://github.com/MUNISHMAHEY1/myPortfolio" target="_blank" rel="noopener noreferrer">
                             GitHub
                             </a>
                         </Button>
-                        <Button size="small" color="primary">
+                        <Button variant="contained" color="secondary">
                             <a className="card-btn" href="https://munishportfolio.netlify.com/" target="_blank" rel="noopener noreferrer">
                             Live Demo
                             </a>
