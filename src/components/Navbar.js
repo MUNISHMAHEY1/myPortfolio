@@ -29,7 +29,7 @@ function Navbar() {
     }
     const classes = useStyle();
     return (
-        <div className="">
+        <div>
             <AppBar position="static" className="header-color">
                 <Toolbar>
                 <Link to="/"><MdHome className="homelogo"/></Link>
