@@ -7,10 +7,12 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import CardReact1 from './CardReact1';
 import CardReact2 from './CardReact2';
+import CardReact3 from './CardReact3';
 import CardPython1 from './CardPython1';
 import CardPython2 from './CardPython2';
 import CardMern1 from './CardMern1';
 import CardJava from './CardJava';
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -63,8 +65,8 @@ export default function SimpleTabs() {
         <div className="cards"><CardMern1></CardMern1></div>
       </TabPanel>
       <TabPanel value={value} index={1} >
+        <div className="cards"><CardReact3></CardReact3></div>
         <div className="cards"><CardReact1></CardReact1></div>
-
         <div className="cards"><CardReact2></CardReact2></div>
       </TabPanel>
       <TabPanel value={value} index={2}>
