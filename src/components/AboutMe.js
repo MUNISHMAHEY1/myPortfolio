@@ -53,12 +53,12 @@ class AboutMe extends Component {
                         <h2 style={{textAlign: "center"}}>Software Developer Intern (India Meteorological Department)</h2>
                         <h3 style={{textAlign: "center"}}>January 2018 - June 2018</h3>
                          <ul style={{ fontWeight:"bold", width:"75%", margin:"auto", paddingTop:"0.5rem", textAlign: "left"}}>
-                            <li>Developed Android application to update the weather forecast data into the database.
+                            <li>Worked on building UI and maintaining two different websites using React, Redux, CSS, HTML and Bootstrap.
                                 </li> 
-                            <li>Worked on project to create and integrate micro services and Restful APIs using Java.</li>    
-                            <li>Completed the front-end development using JavaScript, HTML, CSS and Bootstrap.</li>
-                            <li> Worked with SQL and MySQL database Management tools to create and manage database for the application.</li>
+                            <li>Used Rest APIs for data entry and fetching from the database.</li>    
+                            <li>Worked with SQL and MySQL database Management tools to create and manage database for the application.</li>
                             <li>Used system testing and unit testing technique to test the application</li>
+                            <li>Participated in Scrum meetings, held every week.</li>
                             <li>Designed UML diagrams for Object Oriented Analysis.</li>
                                 </ul>           
                     
